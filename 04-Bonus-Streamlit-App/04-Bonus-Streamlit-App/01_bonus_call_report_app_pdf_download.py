@@ -21,7 +21,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 
 # Load API Key
-OPENAI_API_KEY = yaml.safe_load(open('credentials.yml'))['openai']
+OPENAI_API_KEY = 'OPEN_AI_KEY'
 MODEL = 'gpt-4o'
 
 def generate_pdf_with_quarto(markdown_text):
